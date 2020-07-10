@@ -1,11 +1,11 @@
 ---
-name: MATLAB
+name: MATLAB w Xfce 
 category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
 description: |
-  This app will launch a [MATLAB] GUI on the [Owens cluster]. You will be able
+  This app will launch a Desktop GUI then [MATLAB] on the [Katana cluster]. You will be able
   to interact with the MATLAB GUI through a VNC session.
 
   [MATLAB]: https://www.mathworks.com/products/matlab.html
-  [Owens cluster]: https://www.osc.edu/resources/technical_support/supercomputers/owens
+  [Katana cluster]: https://datakid.github.io/restech-docs

@@ -1,13 +1,14 @@
 <%-
-ppn = num_cores.blank? ? 28 : num_cores.to_i
-if node_type == ':hugemem'
-  ppn = 48
-end
-%>
+  mem = num_cores.blank? ? 4 : num_cores.to_i * 4
+
+-%>
+
 ---
 batch_connect:
   template: vnc
 script:
+  job_name: "matlab_ood_test"
   native:
-    resources:
-      nodes: "<%= bc_num_slots.blank? ? "1" : bc_num_slots.to_i %>:ppn=<%= ppn %><%= node_type %>"
+    - "-l"
+    - "select=1:ncpus=<%= num_cores.blank? ? 1 : num_cores.to_i %>:mem=<%= mem %>gb"
+
