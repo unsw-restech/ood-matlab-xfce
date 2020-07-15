@@ -1,5 +1,5 @@
 ---
-name: MATLAB w Xfce 
+name: MATLAB
 category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
@@ -8,4 +8,4 @@ description: |
   to interact with the MATLAB GUI through a VNC session.
 
   [MATLAB]: https://www.mathworks.com/products/matlab.html
-  [Katana cluster]: https://datakid.github.io/restech-docs
+  [Katana cluster]: https://unsw-restech.github.io/restech-docs
