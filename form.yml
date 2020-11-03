@@ -13,7 +13,7 @@ attributes:
   num_cores:
     widget: "number_field"
     label: "Number of cores"
-    value: 4
+    value: 1
     help: |
       Number of cores, 4 GB per core.
     min: 0
