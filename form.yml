@@ -27,6 +27,7 @@ attributes:
     label: "MATLAB version"
     help: "This defines the version of MATLAB you want to load."
     options:
+      - [ "R2020b", "matlab/2020b" ]
       - [ "R2020a", "matlab/2020a" ]
       - [ "R2019b", "matlab/2019b" ]
       - [ "R2018b", "matlab/2018b" ]
